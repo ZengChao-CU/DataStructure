@@ -25,7 +25,6 @@ typedef struct{ 		//¾²Ì¬·½Ê½
 //	
 //}DSqList; 
 
-
 void DisplaySqList(SqList L){
 	for(int i=0;i<L.length;i++){
 		printf("%d ",L.data[i]);
